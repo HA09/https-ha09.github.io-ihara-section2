@@ -169,6 +169,12 @@ table {
 	line-height: 1.5;
 }
 
+@media only screen and (max-width: 960px) {
+	.inner {
+		width: 95%;
+	}
+}
+
 @media only screen and (max-width: 640px) {
 	.show-pc{
 		display:none;
